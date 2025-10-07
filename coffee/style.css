@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 :root{
-    --background-color: #130403;
+    --background-color: #460804;
     --text-color: #a37140;
 
     --font-text1: 'Libre Baskerville', serif;
@@ -24,4 +24,74 @@ body {
   color: var(--text-color);
 }
  */
+body{
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+header{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav{
+    width: 100%;
+    height: 80px;
+    border-bottom: #a37140 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
+.link-nav{
+    font-family: var(--font-text2);
+    color: var(--text-color);
+    font-size: 18px;
+    margin: 0 20px;
+    transition: .3s;
+}
+
+main{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.section-primaria{
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-primaria-imagem{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: #a37140 3px solid;
+  margin-top: 50px;
+}
+.section-secundaria{
+ width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: first baseline;
+}
+.section-secundaria-imagem{
+  width: 670px;
+  height: 450px;
+  border-radius: 5px;
+  border: #a37140 1px solid;
+  margin-top: 50px;
+ 
+ 
+}
