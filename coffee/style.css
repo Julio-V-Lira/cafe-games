@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Licorice&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --background-color: #130403;
+    --text-color: #a37140;
+
+    --font-text1: 'Libre Baskerville', serif;
+    --font-text2: 'Bree Serif', serif; 
+    --font-text3: 'Licorice', cursive;
+}
+/* 
+exemplo de como usar a função "VAR"
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-text1);
+  color: var(--text-color);
+}
+ */
+
